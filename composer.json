@@ -1,0 +1,15 @@
+{
+    "name": "drupal/sensitive_content_checker",
+    "description": "Sensitive Content Checker",
+    "type": "drupal-module",
+    "require": {
+        "drupal/context": "^4.0"
+    },
+
+    "authors": [
+        {
+            "name": "abejithp",
+            "email": "abejithp@hotmail.com"
+        }
+    ]
+}

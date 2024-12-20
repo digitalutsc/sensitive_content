@@ -1,0 +1,12 @@
+name: 'Sensitive Content Checker'
+type: module
+description: 'Checks for sensitive content and displays a block or renders the content.'
+package: Custom
+libraries:
+  - sensitive_content_checker/sensitive_content_styles
+  - sensitive_content_checker/sensitive_content_checker
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:block
+config: 
+  'form': 'Drupal\sensitive_content_checker\Form\SensitiveContentConfigForm'

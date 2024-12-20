@@ -1,0 +1,7 @@
+sensitive_content_checker.settings:
+  path: '/admin/config/content/sensitive-content-checker'
+  defaults:
+    _form: '\Drupal\sensitive_content_checker\Form\SensitiveContentConfigForm'
+    _title: 'Sensitive Content Settings'
+  requirements:
+    _permission: 'administer sensitive content checker'

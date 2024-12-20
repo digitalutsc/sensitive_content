@@ -1,0 +1,4 @@
+blocked_classes: '#block-mirador-block, #block-views-block-media-display-blocks-pdfjs'
+title: 'Warning'
+description: 'The content you are trying to view is sensitive.'
+button_text: 'View Content'

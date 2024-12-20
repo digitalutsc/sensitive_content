@@ -1,0 +1,12 @@
+sensitive_content_styles:
+  css:
+    theme:
+      css/sensitive-content.css: {}
+
+sensitive_content_checker:
+  js:
+    js/sensitive-content.js: {}
+  dependencies:
+    - core/drupalSettings
+    - core/drupal
+    - drupal/context
