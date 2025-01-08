@@ -3,7 +3,7 @@
     "description": "Sensitive Content Checker",
     "type": "drupal-module",
     "require": {
-        "drupal/context": "^4.0"
+        "drupal/context": "^5@RC"
     },
 
     "authors": [
